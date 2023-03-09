@@ -1,4 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Manrope", sans-serif;
+}
+
+.div-home {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  -moz-column-gap: 2.4rem;
+       column-gap: 2.4rem;
+  justify-self: center;
+}
+
 .div-Bar-nav {
+  grid-column: 2/12;
   background-color: #fff;
   width: 121.2rem;
   height: 5.2rem;
@@ -53,4 +75,74 @@
   font-size: 2rem;
   font-weight: 400;
   cursor: pointer;
+}
+
+.section-home-1 {
+  width: 100%;
+  grid-column: 2/12;
+  margin-top: 10.5rem;
+  display: flex;
+}
+.section-home-1__section-information {
+  margin-top: 4rem;
+  width: 50%;
+}
+.section-home-1__section-information__h3 {
+  font-family: "Manrope", sans-serif;
+  font-size: 2rem;
+  color: #8C82FC;
+  font-weight: 600;
+}
+.section-home-1__section-information__h1 {
+  font-family: "Manrope", sans-serif;
+  font-size: 6.4rem;
+  width: 50rem;
+  color: #22293E;
+  font-weight: 700;
+}
+.section-home-1__section-information__p {
+  width: 52.7rem;
+  font-family: "Manrope", sans-serif;
+  font-size: 2.4rem;
+  margin-top: 2.6rem;
+  font-weight: 400;
+  color: #222831;
+}
+.section-home-1__section-information__div-buttons {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4rem;
+}
+.section-home-1__section-information__div-buttons__button-1 {
+  width: 24rem;
+  height: 7rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: #8C82FC;
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 2.3rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.section-home-1__section-information__div-buttons__button-2 {
+  width: 24rem;
+  height: 7rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: #F7F7FD;
+  color: #A2B3BF;
+  font-family: "Manrope", sans-serif;
+  font-size: 2.3rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.section-home-1__div-img-home {
+  width: 50%;
+}
+.section-home-1__div-img-home__img {
+  width: 57.4rem;
+  height: 57.6rem;
 }/*# sourceMappingURL=styles.css.map */
